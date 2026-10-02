@@ -2,7 +2,7 @@
 class Tug < Formula
   desc "Deploy Serverpod applications to Coolify"
   homepage "https://github.com/mcquenji/tug"
-  version "0.2.1"
+  version "0.2.2"
 
   depends_on "fvm"
   depends_on "git"
@@ -10,23 +10,23 @@ class Tug < Formula
   on_macos do
     depends_on macos: :sequoia
     on_arm do
-      url "https://github.com/mcquenji/tug/releases/download/v0.2.1/tug-v0.2.1-macos-arm64.tar.gz"
-      sha256 "570f408c00eaed7fbf4e5dae71772be0e933c96e11a1587cf4ba9a44f2050479"
+      url "https://github.com/mcquenji/tug/releases/download/v0.2.2/tug-v0.2.2-macos-arm64.tar.gz"
+      sha256 "4c243e3c14f576a09a1aed61e0ab057723b8311bae7a7b4ba3d82604c8c0b9bf"
     end
     on_intel do
-      url "https://github.com/mcquenji/tug/releases/download/v0.2.1/tug-v0.2.1-macos-x64.tar.gz"
-      sha256 "d051bdcebff3b8faccd5a09605c8a8e02f3b52c823c24bf10d2bb2b588b7a599"
+      url "https://github.com/mcquenji/tug/releases/download/v0.2.2/tug-v0.2.2-macos-x64.tar.gz"
+      sha256 "bca1a43ab39ae3bf27bd2bdd2765a771df8f9c6c9ce26e28dc7db058821da115"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mcquenji/tug/releases/download/v0.2.1/tug-v0.2.1-linux-arm64.tar.gz"
-      sha256 "2a38f49b59a00737c227724b9f5c042b4fdca90b25eed99c52981c77714b9c5a"
+      url "https://github.com/mcquenji/tug/releases/download/v0.2.2/tug-v0.2.2-linux-arm64.tar.gz"
+      sha256 "7dbdab9a041070d1a22af643009bb9406d81781a69ddffc03d6c81b21830caf8"
     end
     on_intel do
-      url "https://github.com/mcquenji/tug/releases/download/v0.2.1/tug-v0.2.1-linux-x64.tar.gz"
-      sha256 "e06108443ddde4148388442f564a8631861840fcf2d1112372968f8c44b9e203"
+      url "https://github.com/mcquenji/tug/releases/download/v0.2.2/tug-v0.2.2-linux-x64.tar.gz"
+      sha256 "84d289a4e6ebce8ae8a11f0389d48e1ce34789d65f40fc6b2757ac42d88dfe47"
     end
   end
 
